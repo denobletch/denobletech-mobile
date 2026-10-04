@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "DenobleTech Shop",
+    "slug": "denobletech-mobile",
+    "scheme": "denobletech",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "versionCode": 2,
+      "adaptiveIcon": {
+        "backgroundColor": "#202724",
+        "foregroundImage": "./assets/android-icon-foreground.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.denobletech.shop"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-web-browser",
+      "expo-status-bar",
+      "expo-router"
+    ],
+    "experiments": { "typedRoutes": true }
+  }
+}
